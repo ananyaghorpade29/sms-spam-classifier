@@ -10,6 +10,11 @@ Spam messages are a common issue in mobile communication and can lead to fraud a
 
 ---
 
+## 📁 Dataset
+SMS Spam Collection Dataset from Kaggle
+
+---
+
 ## 🛠 Technologies Used
 - Python
 - Pandas
@@ -36,10 +41,14 @@ Spam messages are a common issue in mobile communication and can lead to fraud a
 
 Input:
 "Congratulations! You won a lottery!!!"
+
+
 “Can you send me the notes from today’s meeting?”
 
 Output:
 This is a Spam Message
+
+
 This is a Ham Message 
 
 ---
@@ -53,10 +62,11 @@ Improve preprocessing
 
 Accuracy: 96%
 
----
 
-## 📁 Dataset
-SMS Spam Collection Dataset from Kaggle
+---
+## 🎯 Motivation
+I built this project to learn the fundamentals of Natural Language Processing (NLP) and Machine Learning.
+
 
 ---
 
@@ -65,7 +75,4 @@ SMS Spam Collection Dataset from Kaggle
 ```bash
 pip install pandas scikit-learn
 
----
-## 🎯 Motivation
-I built this project to learn the fundamentals of Natural Language Processing (NLP) and Machine Learning.
 
