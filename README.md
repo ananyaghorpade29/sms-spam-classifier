@@ -51,7 +51,7 @@ Improve preprocessing
 ---
 ## 📊 Model Performance
 
-Accuracy: 97%
+Accuracy: 96%
 
 ---
 
@@ -64,3 +64,8 @@ SMS Spam Collection Dataset from Kaggle
 
 ```bash
 pip install pandas scikit-learn
+
+---
+## 🎯 Motivation
+I built this project to learn the fundamentals of Natural Language Processing (NLP) and Machine Learning.
+
