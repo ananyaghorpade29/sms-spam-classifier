@@ -32,7 +32,7 @@ Spam messages are a common issue in mobile communication and can lead to fraud a
 6. Prediction  
 
 ---
-##💡 Example
+## 💡 Example
 
 Input:
 "Congratulations! You won a lottery!!!"
@@ -43,7 +43,7 @@ This is a Spam Message
 This is a Ham Message 
 
 ---
-🔮 Future Improvements
+## 🔮 Future Improvements
 Deploy as web app (Streamlit)
 Try advanced models (SVM, Random Forest)
 Improve preprocessing
