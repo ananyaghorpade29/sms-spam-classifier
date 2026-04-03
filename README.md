@@ -1,43 +1,66 @@
 # 📩 SMS Spam Classifier
 
 ## 🚀 Project Overview
-This project classifies SMS messages as Spam or Not Spam using Machine Learning.
+This project is a Machine Learning model that classifies SMS messages as **Spam** or **Not Spam (Ham)** using Natural Language Processing (NLP).
 
-## 🧠 Features
-- Text preprocessing
-- TF-IDF vectorization
-- Logistic Regression model
+---
+
+## 🧠 Problem Statement
+Spam messages are a common issue in mobile communication and can lead to fraud and security risks. This project aims to automatically detect spam messages.
+
+---
 
 ## 🛠 Technologies Used
 - Python
 - Pandas
 - Scikit-learn
+- TF-IDF (Text Vectorization)
+- Logistic Regression
 
-## 📊 How It Works
-1. Load dataset  
-2. Clean text  
-3. Convert text → numbers  
-4. Train model  
-5. Predict spam/ham  
+---
+
+## ⚙️ Workflow
+
+1. Data Loading  
+2. Data Cleaning  
+   - Lowercasing  
+   - Removing punctuation  
+   - Removing numbers  
+3. Feature Extraction using TF-IDF  
+4. Train-Test Split  
+5. Model Training (Logistic Regression)  
+6. Prediction  
+
+---
+##💡 Example
+
+Input:
+"Congratulations! You won a lottery!!!"
+“Can you send me the notes from today’s meeting?”
+
+Output:
+This is a Spam Message
+This is a Ham Message 
+
+---
+🔮 Future Improvements
+Deploy as web app (Streamlit)
+Try advanced models (SVM, Random Forest)
+Improve preprocessing
+
+---
+## 📊 Model Performance
+
+Accuracy: 97%
+
+---
 
 ## 📁 Dataset
 SMS Spam Collection Dataset from Kaggle
 
-## ▶️ Example
+---
 
-Input:
-“You have received a gift from an unknown sender. Pay ₹50 delivery charge to claim.”
-"Your OTP for login is 482913. Do not share it with anyone."
+## ▶️ How to Run
 
-Output:
-This is a Spam Message
-This is a Ham Message
-
-#Model Accuracy: 96%
-
-## 🎯 Future Improvements
-- Build web app  
-- Improve accuracy  
-
-## 👨‍💻 Author
-Ananya Ghorpade
+```bash
+pip install pandas scikit-learn
